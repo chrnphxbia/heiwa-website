@@ -17,19 +17,6 @@ export default function Home() {
       <div className="text-9xl">Projeto HEIWA</div>
       <div className="text-9xl">Projeto HEIWA</div>
       <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
-      <div className="text-9xl">Projeto HEIWA</div>
     </main>
   );
 }
