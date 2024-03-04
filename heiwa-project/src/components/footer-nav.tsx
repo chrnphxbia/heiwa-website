@@ -19,6 +19,7 @@ export default function FooterNav() {
             <h1>Navegação</h1>
             {routes.map((route) => (
               <Link
+                key={route.label}
                 href={route.path}
                 className="text-foreground/80 transition-colors hover:text-foreground"
               >
@@ -30,6 +31,7 @@ export default function FooterNav() {
             <h1>Contato</h1>
             {contacts.map((contact) => (
               <Link
+                key={contact.label}
                 href={contact.path}
                 className="text-foreground/80 transition-colors hover:text-foreground"
               >

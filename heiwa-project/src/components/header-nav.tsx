@@ -16,7 +16,7 @@ export default function HeaderNav() {
           </Link>
           <div className="space-x-2">
             {routes.map((item) => (
-              <Link href={item.path}>
+              <Link href={item.path} key={item.label}>
                 <Badge
                   variant={"secondary"}
                   className="text-foreground/80 transition-colors duration-200 hover:text-foreground/100"
