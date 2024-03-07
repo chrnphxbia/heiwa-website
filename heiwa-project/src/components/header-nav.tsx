@@ -1,8 +1,8 @@
 import Link from "next/link";
 import routes from "@/lib/routes";
 import { Badge } from "./ui/badge";
-import HeiwaLogo from "../../public/heiwa-logo";
-import CIBERDEMLogo from "../../public/ciberdem-logo";
+import HeiwaLogo from "../../public/logos/heiwa-logo";
+import CIBERDEMLogo from "../../public/logos/ciberdem-logo";
 
 const ciberdemLink = "https://ciberdem.mack.com.br/";
 
@@ -18,7 +18,7 @@ export default function HeaderNav() {
             {routes.map((item) => (
               <Link href={item.path} key={item.label}>
                 <Badge
-                  variant={"secondary"}
+                  variant={"navitem"}
                   className="text-foreground/80 transition-colors duration-200 hover:text-foreground/100"
                 >
                   {item.label}

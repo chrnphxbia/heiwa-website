@@ -3,8 +3,8 @@ import Image from "next/image";
 import routes from "@/lib/routes";
 import MapsEmbed from "./embed-map";
 import contacts from "@/lib/contacts";
-import MackLogo from "../../public/mack-logo";
-import FapespLogo from "../../public/fapesp-logo";
+import MackLogo from "../../public/logos/mack-logo";
+import FapespLogo from "../../public/logos/fapesp-logo";
 
 const fapespLink = "https://fapesp.br/";
 const mackLink = "https://www.mackenzie.br/";
