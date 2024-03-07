@@ -78,3 +78,7 @@
 h1 {
   @apply font-bold text-lg;
 }
+
+b {
+  color: #26572a;
+}

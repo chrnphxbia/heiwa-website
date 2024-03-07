@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="pt-br" className={`${inter.className} antialised`}>
       <body className="flex flex-col min-h-screen">
         <HeaderNav />
-        <div className="container pb-16">{children}</div>
+        <div className="container pb-16 pt-8 flex-1">{children}</div>
         <FooterNav />
       </body>
     </html>
