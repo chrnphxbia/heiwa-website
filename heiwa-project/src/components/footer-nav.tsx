@@ -16,7 +16,7 @@ export default function FooterNav() {
       <div className="flex justify-between border-t pt-2">
         <div className="flex gap-32 text-foreground">
           <div className="flex flex-col">
-            <h1>Navegação</h1>
+            <h2>Navegação</h2>
             {routes.map((route) => (
               <Link
                 key={route.label}
@@ -28,7 +28,7 @@ export default function FooterNav() {
             ))}
           </div>
           <div className="flex flex-col">
-            <h1>Contato</h1>
+            <h2>Contato</h2>
             {contacts.map((contact) => (
               <Link
                 key={contact.label}
@@ -40,7 +40,7 @@ export default function FooterNav() {
             ))}
           </div>
           <div className="flex flex-col gap-2">
-            <h1>Apoio</h1>
+            <h2>Apoio</h2>
             <Link href={fapespLink}>
               <FapespLogo />
             </Link>
@@ -60,7 +60,7 @@ export default function FooterNav() {
           </div>
         </div>
         <div className="flex flex-col items-center pb-2">
-          <h1 className="pb-1">Onde estamos</h1>
+          <h2 className="pb-1">Onde estamos</h2>
           <MapsEmbed />
         </div>
       </div>

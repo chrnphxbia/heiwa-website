@@ -106,7 +106,7 @@ const members = [
     role: "Disseminação de conhecimento",
     about:
       "Faculdade de Computação e Informática, Universidade Presbiteriana Mackenzie",
-    img: "pedro-henrique-farias.jpg",
+    img: "pedro-farias.jpg",
     linkedin: "https://br.linkedin.com/in/pedrohfarias77",
     lattes:
       "https://bv.fapesp.br/en/pesquisador/726273/pedro-henrique-araujo-farias/",

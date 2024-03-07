@@ -76,6 +76,10 @@
 }
 
 h1 {
+  @apply font-bold text-4xl pb-4;
+}
+
+h2 {
   @apply font-bold text-lg;
 }
 
