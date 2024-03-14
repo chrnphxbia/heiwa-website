@@ -50,7 +50,7 @@ export default function FooterNav() {
               </Link>
               <Link href={mackCloudLink}>
                 <Image
-                  src="/mackcloud.png"
+                  src="/logos/mackcloud.png"
                   alt="Mack Cloud Logo"
                   width={70}
                   height={70}

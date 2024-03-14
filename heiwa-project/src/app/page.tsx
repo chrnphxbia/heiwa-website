@@ -34,7 +34,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <Link href={"/resultados"}>
-                <Button size={"lg"}>Visualizar resultados</Button>
+                <Button size={"lg"}>Ver resultados</Button>
               </Link>
             </div>
           </div>

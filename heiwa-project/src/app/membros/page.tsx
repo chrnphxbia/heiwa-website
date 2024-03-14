@@ -13,10 +13,10 @@ import members from "@/lib/members";
 export default function Membros() {
   return (
     <main>
-      <h1>Membros</h1>
+      <h1 className="text-primary">Membros</h1>
       <div className="grid grid-cols-3 gap-4">
         {members.map((member) => (
-          <Card className="flex flex-col items-center">
+          <Card key={member.id} className="flex flex-col items-center">
             <CardHeader className="items-center gap-2">
               <Avatar className="h-20 w-20">
                 <AvatarImage
@@ -25,7 +25,7 @@ export default function Membros() {
                 />
                 <AvatarFallback>{member.name.slice(0, 2)}</AvatarFallback>
               </Avatar>
-              <CardTitle className="text-center">{member.name}</CardTitle>
+              <CardTitle className="text-center text-primary">{member.name}</CardTitle>
               <CardDescription>{member.role}</CardDescription>
             </CardHeader>
             <CardContent className="text-center">{member.about}</CardContent>

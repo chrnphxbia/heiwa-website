@@ -3,7 +3,6 @@ const routes = [
   { label: "Resultados", path: "resultados" },
   { label: "Membros", path: "membros" },
   { label: "Sobre", path: "sobre" },
-  { label: "Apoio", path: "apoio" },
 ];
 
 export default routes;
