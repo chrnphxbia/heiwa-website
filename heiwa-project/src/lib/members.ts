@@ -6,7 +6,7 @@ const members = [
     about:
       "Faculdade de Computação e Informática, Universidade Presbiteriana Mackenzie, Programa de Pós-Graduação em Sistemas de Informação – EACH/USP Leste",
     img: "renata-araujo.jpg",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/renata-araujo-00634a",
     lattes:
       "https://bv.fapesp.br/en/pesquisador/721436/renata-mendes-de-araujo/",
   },
@@ -31,7 +31,7 @@ const members = [
     img: "ivan-carlos.jpg",
     linkedin: "",
     lattes:
-      "https://www.escavador.com/sobre/5639806/ivan-carlos-alcantara-de-oliveira",
+      "http://lattes.cnpq.br/0272400268231478",
   },
 
   {
@@ -52,7 +52,7 @@ const members = [
     about:
       "Faculdade de Computação e Informática, Universidade Presbiteriana Mackenzie",
     img: "vitor-baldoino.jpg",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/vitorbaldoino/",
     lattes: "",
   },
 
@@ -75,9 +75,9 @@ const members = [
     about:
       "Faculdade de Computação e Informática, Universidade Presbiteriana Mackenzie",
     img: "igor-acocha.jpg",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/igoracocha/",
     lattes:
-      "https://bv.fapesp.br/pt/pesquisador/728896/igor-francisco-da-silva-acocha/",
+      "",
   },
 
   {
@@ -86,7 +86,7 @@ const members = [
     role: "",
     about: "Programa de Pós-Graduação em Sistemas de Informação EACH/USP",
     img: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/maatheusgois/",
     lattes: "",
   },
 
@@ -96,8 +96,8 @@ const members = [
     role: "",
     about: "Programa de Pós-Graduação em Sistemas de Informação/EACH-USP",
     img: "matheus-alves.jpg",
-    linkedin: "",
-    lattes: "",
+    linkedin: "https://br.linkedin.com/in/silvamatheusalves",
+    lattes: "http://lattes.cnpq.br/2718404101479318",
   },
 
   {
