@@ -26,7 +26,6 @@ export default function Membros() {
                 <AvatarFallback>{member.name.slice(0, 2)}</AvatarFallback>
               </Avatar>
               <CardTitle className="text-center text-primary">{member.name}</CardTitle>
-              <CardDescription>{member.role}</CardDescription>
             </CardHeader>
             <CardContent className="text-center">{member.about}</CardContent>
             <CardFooter className="gap-4 text-sm text-foreground/70 transition-colors">

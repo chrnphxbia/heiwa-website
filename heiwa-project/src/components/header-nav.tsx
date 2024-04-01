@@ -1,8 +1,8 @@
 import Link from "next/link";
 import routes from "@/lib/routes";
 import { Badge } from "./ui/badge";
-import HeiwaLogo from "../../public/logos/heiwa-logo";
 import CIBERDEMLogo from "../../public/logos/ciberdem-logo";
+import HeiwaNewLogo from "../../public/logos/heiwa-new-logo";
 
 const ciberdemLink = "https://ciberdem.mack.com.br/";
 
@@ -12,7 +12,7 @@ export default function HeaderNav() {
       <div className="flex bg-white justify-between px-8 place-items-center border-b">
         <div className="flex place-items-center gap-16">
           <Link href={`/`}>
-            <HeiwaLogo />
+            <HeiwaNewLogo />
           </Link>
           <div className="space-x-2">
             {routes.map((item) => (

@@ -8,7 +8,7 @@ const members = [
     img: "renata-araujo.jpg",
     linkedin: "https://www.linkedin.com/in/renata-araujo-00634a",
     lattes:
-      "https://bv.fapesp.br/en/pesquisador/721436/renata-mendes-de-araujo/",
+      "http://lattes.cnpq.br/3589012014320121",
   },
 
   {
@@ -19,7 +19,7 @@ const members = [
       "Faculdade de Computação e Informática, Universidade Presbiteriana Mackenzie",
     img: "orlando-coelho.jpg",
     linkedin: "https://br.linkedin.com/in/orlando-bisacchi-coelho-3a57a422",
-    lattes: "https://www.escavador.com/sobre/372809/orlando-bisacchi-coelho",
+    lattes: "",
   },
 
   {
@@ -41,8 +41,8 @@ const members = [
     about:
       "Faculdade de Computação e Informática, Universidade Presbiteriana Mackenzie",
     img: "everton-knihs.jpg",
-    linkedin: "",
-    lattes: "https://www.escavador.com/sobre/7138356/everton-knihs",
+    linkedin: "https://www.linkedin.com/in/everton-k-aa5445a3",
+    lattes: "http://lattes.cnpq.br/1221939986465818",
   },
 
   {
@@ -85,7 +85,7 @@ const members = [
     name: "Matheus Gois",
     role: "",
     about: "Programa de Pós-Graduação em Sistemas de Informação EACH/USP",
-    img: "",
+    img: "matheus-gois.jpg",
     linkedin: "https://www.linkedin.com/in/maatheusgois/",
     lattes: "",
   },
@@ -109,7 +109,7 @@ const members = [
     img: "pedro-farias.jpg",
     linkedin: "https://br.linkedin.com/in/pedrohfarias77",
     lattes:
-      "https://bv.fapesp.br/en/pesquisador/726273/pedro-henrique-araujo-farias/",
+      "",
   },
 ];
 

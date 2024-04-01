@@ -1,15 +1,12 @@
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardHeader,
-  CardFooter,
-  CardTitle,
 } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 import results from "@/lib/results";
 import { Badge } from "@/components/ui/badge";
+import { FileSymlink } from "lucide-react";
 
 export default function Resultados() {
   return (
@@ -35,7 +32,7 @@ export default function Resultados() {
                     src={`/news-img/`}
                     alt={`Imagem do resultado ${result.id}`}
                   />
-                  <AvatarFallback>{`Result ${result.id}`}</AvatarFallback>
+                  <AvatarFallback><FileSymlink/></AvatarFallback>
                 </Avatar>
               </div>
               <CardContent className="flex flex-col p-0">

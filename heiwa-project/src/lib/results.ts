@@ -1,11 +1,27 @@
 const results = [
   {
     id: "1",
-    title: "Artigo 1: Dataset Eleições 2022 (dataset paer)",
-    authors: "Livia A. dos Santos, Renata Araujo, Orlando B. Coelho, Luciano José da Silva, Ivan Carlos A. Oliveira, Ana Grasielle D. Correa",
-    date: "xx/2024",
-    link: "https://file.notion.so/f/f/2178901b-1ac8-41f2-a4e6-5f9fd3284fe9/e98b50f6-4473-465b-8133-20bf352c26b1/Brasnam2024-DatasetPaper.pdf?id=9467d0a2-76b8-499c-9441-969adff5e784&table=block&spaceId=2178901b-1ac8-41f2-a4e6-5f9fd3284fe9&expirationTimestamp=1710547200000&signature=bH_GPQm0ujtZVO2B9IbeoEclxEFGL_E98m9jxkovSjg&downloadName=Brasnam2024-DatasetPaper.pdf",
-  },  
+    title: "Dataset Eleições 2022",
+    authors: "Livia A. dos Santos, Renata Araujo, Orlando B. Coelho, Luciano José da Silva",
+    date: "02/2024",
+    link: "https://github.com/ciberdem/Tweets_Eleicoes_2022",
+  },
+  
+  {
+    id: "2",
+    title: "Curadoria e Extração de Dados: Pipeline de Limpeza de Dados",
+    authors: "Livia A. dos Santos, Renata Araujo",
+    date: "08/2023",
+    link: "https://github.com/ciberdem/ProjetoHEIWA-FAPESP/tree/main/CuradoriaExtracaoDados",
+  },
+
+  {
+    id: "3",
+    title: "Não se perca no debate! Mineração de Argumentação em Redes Sociais",
+    authors: "João Pedro da Silva S., Rodrigo Uchoa, Renata Araujo, Orlando B. Coelho",
+    date: "07/2021",
+    link: "https://sol.sbc.org.br/index.php/brasnam/article/view/16132",
+  }
 ];
 
 export default results;
