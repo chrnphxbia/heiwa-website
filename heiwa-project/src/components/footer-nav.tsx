@@ -9,6 +9,7 @@ import FapespLogo from "../../public/logos/fapesp-logo";
 const fapespLink = "https://fapesp.br/";
 const mackLink = "https://www.mackenzie.br/";
 const mackCloudLink = "https://mackcloud.mackenzie.br/";
+const ciberdemEmail = "ciberdem@mackenzie.br";
 
 export default function FooterNav() {
   return (
@@ -31,6 +32,7 @@ export default function FooterNav() {
             <h2>Contato</h2>
             {contacts.map((contact) => (
               <Link
+                target="_blank"
                 key={contact.label}
                 href={contact.path}
                 className="text-foreground/80 transition-colors hover:text-foreground"
@@ -38,17 +40,24 @@ export default function FooterNav() {
                 {contact.label}
               </Link>
             ))}
+            <Link
+              target="_blank"
+              href={`mailto:${ciberdemEmail}`}
+              className="text-foreground/80 transition-colors hover:text-foreground"
+            >
+              E-mail
+            </Link>
           </div>
           <div className="flex flex-col gap-2">
             <h2>Apoio</h2>
-            <Link href={fapespLink}>
+            <Link target="_blank" href={fapespLink}>
               <FapespLogo />
             </Link>
             <div className="flex items-center justify-between">
-              <Link href={mackLink}>
+              <Link target="_blank" href={mackLink}>
                 <MackLogo />
               </Link>
-              <Link href={mackCloudLink}>
+              <Link target="_blank" href={mackCloudLink}>
                 <Image
                   src="/logos/mackcloud.png"
                   alt="Mack Cloud Logo"

@@ -111,6 +111,18 @@ const members = [
     lattes:
       "",
   },
+
+  {
+    id: "11",
+    name: "Bruno Araujo",
+    role: "Visualização de discussões",
+    about:
+      "",
+    img: "bruno-araujo.png",
+    linkedin: "",
+    lattes:
+      "",
+  },
 ];
 
 export default members;

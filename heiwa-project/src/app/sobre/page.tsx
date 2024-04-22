@@ -41,8 +41,8 @@ export default function Sobre() {
             <Image
               src="/about.png"
               alt="Representação de etapas do projeto."
-              width={832}
-              height={217}
+              width={(1 / 1.5) * 832}
+              height={(1 / 1.5) * 217}
             />
           </div>
         </div>

@@ -1,7 +1,4 @@
-import {
-  Card,
-  CardContent,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 import results from "@/lib/results";
@@ -32,7 +29,9 @@ export default function Resultados() {
                     src={`/news-img/`}
                     alt={`Imagem do resultado ${result.id}`}
                   />
-                  <AvatarFallback><FileSymlink/></AvatarFallback>
+                  <AvatarFallback>
+                    <FileSymlink />
+                  </AvatarFallback>
                 </Avatar>
               </div>
               <CardContent className="flex flex-col p-0">

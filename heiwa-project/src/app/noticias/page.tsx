@@ -29,7 +29,7 @@ export default function Noticias() {
               <div>
                 <Avatar className="h-20 w-20">
                   <AvatarImage
-                    src={`/news-img/`}
+                    src={news.img}
                     alt={`Imagem da notícia ${news.id}`}
                   />
                   <AvatarFallback>

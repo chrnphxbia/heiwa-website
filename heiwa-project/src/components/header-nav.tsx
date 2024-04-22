@@ -27,7 +27,7 @@ export default function HeaderNav() {
             ))}
           </div>
         </div>
-        <Link href={ciberdemLink}>
+        <Link target="_blank" href={ciberdemLink}>
           <CIBERDEMLogo />
         </Link>
       </div>
