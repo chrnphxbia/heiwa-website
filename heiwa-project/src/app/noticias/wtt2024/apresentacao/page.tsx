@@ -22,12 +22,15 @@ export default function Page() {
           </div>
           <div className="flex justify-center">
             <Image
-              className="py-4 pb-8"
+              className="py-4 pb-2"
               src="/wtt2024/apresentacao/firstpic.jpg"
               alt="Oficina de anotação"
               width={1280}
               height={694}
             />
+          </div>
+          <div className="flex justify-center text-xs font-semibold pb-8">
+            Membros do Projeto HEIWA em apresentação sobre o projeto no WTT 2024
           </div>
           <div className="indent-8 text-justify">
             Ao longo da palestra, os membros apresentaram a proposta, o

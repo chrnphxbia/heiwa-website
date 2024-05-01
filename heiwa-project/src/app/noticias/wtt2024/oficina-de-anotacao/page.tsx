@@ -16,18 +16,23 @@ export default function Page() {
         <div className="flex flex-col">
           <div className="indent-8 text-justify">
             Na manhã de 02 de Abril de 2024, os membros do Projeto HEIWA
-            conduziram uma oficina de anotação de base de dados no WTT. O
+            conduziram uma oficina de anotação de base de dados no WTT 2024, o
+            Workshop de Tendências Tecnológicas, realizado pela Faculdade de
+            Computação e Informática da Universidade Presbiteriana Mackenzie. O
             objetivo era, com a ajuda do público, classificar aspectos da base
             de dados utilizada pelo projeto.
           </div>
           <div className="flex justify-center">
             <Image
-              className="py-4 pb-8"
+              className="pt-4 pb-2"
               src="/wtt2024/oficina-anotacao/firstpic.jpg"
               alt="Oficina de anotação"
               width={(1 / 2) * 1600}
               height={(1 / 2) * 900}
             />
+          </div>
+          <div className="flex justify-center text-xs font-semibold pb-8">
+            Membros do Projeto HEIWA e participantes da oficina de anotação
           </div>
           <div className="indent-8 text-justify">
             Realizou-se um recorte de aproximadamente 800 tweets a serem
@@ -49,12 +54,15 @@ export default function Page() {
 
           <div className="flex justify-center">
             <Image
-              className="py-4 pt-8"
+              className="pb-2 pt-8"
               src="/wtt2024/oficina-anotacao/secpic.jpg"
               alt="Oficina de anotação"
               width={(1 / 2) * 1200}
               height={(1 / 2) * 1005}
             />
+          </div>
+          <div className="flex justify-center text-xs font-semibold pb-4">
+            Apresentação do objetivo e processo de anotação em datasets
           </div>
         </div>
       </div>
